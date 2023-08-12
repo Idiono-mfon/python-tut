@@ -1,5 +1,7 @@
 dom_age = 18
 
+# This is a conditional statement with variou conditions for the value : dom_age
+
 if (dom_age == 14):
     print(
         f"My bro Dominion well done you are still a Teenager because your age is {dom_age}")
