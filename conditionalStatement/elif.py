@@ -1,6 +1,7 @@
 dom_age = 18
 
 # This is a conditional statement with variou conditions for the value : dom_age
+# Since the condition evaluates to false, python will not execute the statement inside the if scope
 
 if (dom_age == 14):
     print(
