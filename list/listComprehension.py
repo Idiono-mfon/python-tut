@@ -16,6 +16,20 @@
 # print(double_list)
 
 
-double_odd_number_list = [2 * val for val in range(100) if (val % 2 != 0)]
+# double_odd_number_list = [2 * val for val in range(100) if (val % 2 != 0)]
 
-print(double_odd_number_list)
+# print(double_odd_number_list)
+
+factors = []
+
+
+def recursiveFunc(val: int):
+    num = val // 2
+    factors.append(num)
+
+    if (num != 1 and val % 2 == 0):
+        return recursiveFunc(num)
+    return factors
+
+
+print(recursiveFunc(100))
